@@ -1,24 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
+
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Bootstrap Portfoilo</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">Robert Ferguson</a>
+  <div class="container">
+      <nav class="navbar-nav navbar-expand-lg">
+          <a class="navbar-brand" style="font-size: xx-large" href="#"><b>Robert Ferguson</b>
+          </a>
+          <ul class="navbar-expand-lg">
+              <li class="active"><a href="index.html">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div> 
+        </div>
+      </nav>
+      <header>  
+<div class="jumbotron">
+  <div class="row">
+      <div class="col-xs-6 col-sm-12 col-md-9">
+      <h1 class="text-center">Contact</h1>
+      <form action="#" class="contact">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Tyler Perry">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" placeholder="noreply@yahoo.com">
+          <label for="name">Message</label>
+          <textarea rows="10" cols="40" name="message" id="message"></textarea>
+          <input type="submit" value="Submit">
+      </form>
     </div>
-    <div>
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li class="active"><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    </div> 
+</div>
+</header> 
+<div class="navbar-footer">
+    <nav class="navbar navbar-inverse" style="background-color: #e3f2fd;">
+    <footer class="nav navbar-nav">
+<p id="copyright">
+  <span property="dc:dateCopyrighted"; property="dc:publisher">Copyright &copy; 2018 Fergie Corporation</span>
+</p>
+</footer>
 
 </body>
+
 </html>
